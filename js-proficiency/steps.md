@@ -1,0 +1,8 @@
+In between each step, you should refresh the page to make sure things are working as you expect. If you have any questions or comments, please make them known.
+
+1. Make a new branch.
+2. Before looking at the page, examine the code in index.html and main.js for validity. If you find any errors, fix them.
+3. Move the reference to main.js to the bottom of the head tag. Make any necessary changes to the code to ensure it runs.
+4. When you click the button marked "Copy first object," the div identified as theFirstObject should be copied to the div with an ID of target. Clicking the button should invoke the buttonHandler method "makeFirstChange," which is where you should put your logic. The object should have the same appearance in both places.
+5. When you click the button marked "Move second object," the div identified as theSecondObject should be moved to the div with an ID of target, before the first object. Clicking the button should invoke the buttonHandler method "makeSecondChange," which is where you should put your logic. 
+6. Remove the call to the changeText function. When the you click the button marked "Change text," you should change the footer text to the value of the footerText variable immediately. You should also make a call to https://meowfacts.herokuapp.com, and change the contents of the H1 to the contents of the 'data' variable from the response. Clicking the button should invoke the buttonHandler method "makeThirdChange," which is where you should put your logic.

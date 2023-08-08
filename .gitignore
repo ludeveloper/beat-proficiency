@@ -1,0 +1,45 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/angular-proficiency/dist
+/angular-proficiency/tmp
+/angular-proficiency/out-tsc
+
+# dependencies
+/angular-proficiency/node_modules
+
+# IDEs and editors
+/angular-proficiency/.vscode/
+/angular-proficiency//.idea
+/angular-proficiency/.project
+/angular-proficiency/.classpath
+/angular-proficiency/.c9/
+/angular-proficiency/*.launch
+/angular-proficiency/.settings/
+/angular-proficiency/*.sublime-workspace
+
+# IDE - VSCode
+/angular-proficiency/.vscode/*
+/angular-proficiency/!.vscode/settings.json
+/angular-proficiency/!.vscode/tasks.json
+/angular-proficiency/!.vscode/launch.json
+/angular-proficiency/!.vscode/extensions.json
+
+# misc
+/angular-proficiency/.angular/cache
+/angular-proficiency/.sass-cache
+/angular-proficiency/connect.lock
+/angular-proficiency/coverage
+/angular-proficiency/libpeerconnection.log
+/angular-proficiency/npm-debug.log
+/angular-proficiency/testem.log
+/angular-proficiency/typings
+/angular-proficiency/yarn-error.log
+
+# e2e
+/angular-proficiency/e2e/*.js
+/angular-proficiency/e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
