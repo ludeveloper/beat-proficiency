@@ -9,7 +9,7 @@ Please note that it is not expected that you will get through the entire thing, 
 1. Navigate to the `/angular-proficiency` folder  
 2. Create a new branch for this test  
 3. How would you ensure that everyone would use the same version of npm when running the app? (18.10.0) Why would this be important?
-4. Start Angular
+4. Install necessary NPM modules and start Angular. You can view the application at http://localhost:4200.
 5. Create a new user and log in.
 
 ### PART I - Bug fixes
@@ -38,7 +38,7 @@ The application profile settings screen currently has no validation.
 
 This is a simple toy project to display your Javascript proficiency. In between each step, you should refresh the page to make sure things are working as you expect. If you have any questions or comments, please make them known.
 
-1. Make a new branch.
+1. Stop the Angular server. Navigate to `/js-proficiency`. Install the necessary NPM modules and start the server with `npm run serve`. You can view the application at http://127.0.0.1:4200. You will not need to worry about anything else NPM related for this portion.
 2. Before looking at the page, examine the code in index.html and main.js for validity. If you find any errors, fix them.
 3. Move the reference to main.js to the bottom of the head tag. Make any necessary changes to the code to ensure it runs.
 4. 
