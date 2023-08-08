@@ -1,0 +1,13 @@
+{
+  "name": "js-proficiency",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "serve": "node_modules/http-server/bin/http-server -p 4200"
+  },
+  "author": "Kaitlyn Concilio",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
