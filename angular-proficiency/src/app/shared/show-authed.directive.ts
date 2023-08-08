@@ -12,6 +12,7 @@ import { UserService } from "../core/services/user.service";
   standalone: true,
 })
 export class ShowAuthedDirective implements OnInit {
+  embeddedView: any;
   constructor(
     private templateRef: TemplateRef<any>,
     private userService: UserService,
@@ -26,7 +27,11 @@ export class ShowAuthedDirective implements OnInit {
         (isAuthenticated && this.condition) ||
         (!isAuthenticated && !this.condition)
       ) {
-        this.viewContainer.createEmbeddedView(this.templateRef);
+        if (!this.embeddedView) {
+          this.embeddedView = this.viewContainer.createEmbeddedView(
+            this.templateRef
+          );
+        }
       } else {
         this.viewContainer.clear();
       }

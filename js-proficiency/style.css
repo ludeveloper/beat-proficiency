@@ -13,7 +13,7 @@ h1 {
 button {
     padding: 4px 8px;
     background: green;
-    color: white;  
+    color: white;
     border: none;
     border-radius: 4px;
     transition: background 0.4s;
@@ -39,12 +39,14 @@ button:hover {
     border-radius: 10px;
 }
 
-#theFirstObject {
+#theFirstObject,
+.theFirstObject {
     background: blue;
     height: 20px;
     width: 20px;
     display: block;
 }
+
 
 #notThisObject {
     margin: 10px 0;

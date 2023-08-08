@@ -31,7 +31,10 @@ export class SettingsComponent implements OnInit, OnDestroy {
   user!: User;
   settingsForm = new FormGroup<SettingsForm>({
     image: new FormControl("", { nonNullable: true }),
-    username: new FormControl("", { nonNullable: true }),
+    username: new FormControl("", {
+      validators: [Validators.required],
+      nonNullable: true,
+    }),
     bio: new FormControl("", { nonNullable: true }),
     email: new FormControl("", { nonNullable: true }),
     password: new FormControl("", {

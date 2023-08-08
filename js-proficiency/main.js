@@ -6,11 +6,18 @@ function changeText() {
     this.headerEl.textContent = headerText;
     this.footerEl = document.querySelector('footer p');
     this.footerEl.textContent = footerText;
+    
+   
 }
+
+document.getElementById('copyFirstObject').addEventListener('copyFirstObject',buttonHandler.makeFirstChange)
+
 
 const buttonHandler = {
     makeFirstChange: () => {
-
+        const theFirstObject = document.getElementById('theFirstObject');
+        const theFirstObjectCopy =theFirstObject;
+        const target = document.getElementById('target')
     },
     makeSecondChange: () => {
     
@@ -20,5 +27,5 @@ const buttonHandler = {
 }
 
 changeText();
-let headerText;
+var headerText;
 var footerText;
